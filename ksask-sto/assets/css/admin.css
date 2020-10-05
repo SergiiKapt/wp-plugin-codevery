@@ -1,0 +1,40 @@
+.ksa_sto_admin_setting {
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.ksa_sto_admin_setting .separator {
+    padding: 0 15px 0 15px;
+}
+
+.ksa_sto_message {
+    position: relative;
+}
+
+.ksa_sto_option i {
+    background: #ddd;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
+#ksa_sto_admin_loader_wrap {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+
+    background: rgba(0,0,0,.07);
+}
+
+#ksa_sto_admin_loader_img {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    z-index: 30;
+}
